@@ -1,0 +1,19 @@
+[
+    {
+        "name": "waf-tools",
+        "resolver": "git",
+        "method": "semver",
+        "major": 4,
+        "sources": [
+            "github.com/steinwurf/waf-tools.git"
+        ]
+    },
+    {
+        "name": "opus-source",
+        "resolver": "git",
+        "method": "checkout",
+        "checkout": "v1.3.1",
+        "pull_submodules": false,
+        "sources": ["git@github.com/xiph/opus.git"]
+    }
+]
